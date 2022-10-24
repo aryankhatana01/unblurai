@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(181, 36, 36);
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #c861fb;
+.twitter-button {
+  background: #02bbff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 36px;
+  width: 74px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.2s, color 0.2s;  /*transitions background color and fint color on hover in 0.2s*/
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.twitter-button:hover {
+  background: #fff;
+  color: #02bbff;
+  border: #02bbff;
+  border-style: solid;
+}
+
+
+.sub-button {
+  background: #FF0000;
+  border: none;
+  border-radius: 2px;
+  margin-left:10px;
+  padding-left: 16px;   /*Padding is the inner space and it is better to use padding instead of hardcoding height and width.*/
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 5px;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.2s;  /*transitions opacity on hover in 0.2s*/
+  margin: 10px;
+}
+
+
+.sub-button:hover {
+  opacity: 0.8;
+}
+
+.sub-button:active {
+  background: #dcdcdc;
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.join-button {
+  margin-left: 10px;
+  background: #FFFFFF;
+  border-color: #0285ff;
+  border-style: solid;
+  color: #023dff;
+  height: 36px;
+  width: 76px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;    /*transitions background color and font color on hover in 0.2s*/
+  margin: 10px;
+}
+
+.join-button:hover {
+  background: #0285ff;
+  color: #FFFFFF;
+  border-color: #0285ff;
 }
