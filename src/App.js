@@ -1,13 +1,11 @@
 import './App.css';
+import React from 'react';
+import icon from './assets/unblurai-text-new.png'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <button class="twitter-button">Tweet</button>
-      <button class="sub-button">SUBSCRIBE</button>
-      <button class="join-button">JOIN</button>
+      <img src={icon} alt="unblurai-logo" className='logo'/>
     </div>
   );
 }
-
-export default App;
