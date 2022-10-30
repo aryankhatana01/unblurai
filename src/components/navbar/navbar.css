@@ -34,7 +34,8 @@
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
-    font-family: 'Poppins', sans-serif;     
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;   
     box-shadow: 0 0 20px #eee;
     cursor: pointer;
 }
