@@ -3,7 +3,7 @@
 .App {
   background-color: #ffffff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .logo {
   width: 8.3rem;

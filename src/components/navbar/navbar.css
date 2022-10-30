@@ -1,0 +1,37 @@
+.navbar__links {
+    margin-top: 2.48rem;
+    margin-left: 10rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12rem;
+    /* margin-right: auto; */
+}
+
+.home {
+    margin-right: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.about {
+    margin-right: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.contact {
+    margin-right: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

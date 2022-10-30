@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbar__links">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
+                <a href="#"><span className="home">Home</span></a>
+                <a href="#"><span className="about">About Us</span></a>
+                <a href="#"><span className="contact">Contact Us</span></a>
             </div>
         </div>
     )
