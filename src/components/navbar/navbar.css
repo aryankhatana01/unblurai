@@ -20,14 +20,14 @@
     width: 6.6rem;
     border-radius: 8px;
     border: none;
-    background: linear-gradient(90deg, #21A0B4 35%, #4933C7 100%);
+    background: linear-gradient(90deg, #0abfdb 35%, #4933C7 100%);
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     transition: 0.5s;
     cursor: pointer; */
 
-    background-image: linear-gradient(to right, #21A0B4 0%, #4933C7  51%, #21A0B4  100%);
+    background-image: linear-gradient(to right, #0abfdb 0%, #4933C7  51%, #0abfdb  100%);
     height: 2.3rem;
     width: 6.6rem;
     border: none;
@@ -43,11 +43,11 @@
 
 
 .button:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
-    transform: scale(1.1) perspective(1px)
-  }
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.1) perspective(1px)
+}
 
 .navbar {
     display: flex;
@@ -102,71 +102,87 @@ a:active { text-decoration: none; }
 
 
 @media screen and (max-width: 1366px) {
-    .primary-heading {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #000000;
-      margin-top: 12rem;
-      margin-left: -63rem;
-      font-stretch: 50%;
-    }
-  
-    .sketch {
-      margin-top: 25.6rem;
-      margin-left: -21rem;
-    }
-
-    .navbar__button {
-        margin-top: 1.8rem;
-        margin-left: 9rem;
-        display: flex;
-        justify-content: space-between;
-        /* border: none; */
-        text-align: center;
-    }
-
-    .navbar__links {
-        margin-top: 2.48rem;
-        margin-left: 5rem;
-        display: flex;
-        height: 20px;
-        justify-content: space-between;
-    }
-  }
-  
-  @media screen and (max-width: 1080px) {
-    .primary-heading {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #000000;
-      margin-top: 12rem;
-      margin-left: -78rem;
-      font-stretch: 50%;
-    }
-  
-    .sketch {
-      margin-top: 25.6rem;
-      margin-left: -10.4rem;
-    }
+  .primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 12rem;
+    margin-left: -63rem;
+    font-stretch: 50%;
   }
 
-  
-  @media screen and (max-width: 967px) {
-    .primary-heading {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #000000;
-      margin-top: 12rem;
-      margin-left: -78rem;
-      font-stretch: 50%;
-    }
-  
-    .sketch {
-      margin-top: 25.6rem;
-      margin-left: -8rem;
-    }
+  /* .sketch {
+    margin-top: 25.6rem;
+    margin-left: -21rem;
+  } */
+
+  .navbar__button {
+      margin-top: 1.8rem;
+      margin-left: 9rem;
+      display: flex;
+      justify-content: space-between;
+      /* border: none; */
+      text-align: center;
   }
+
+  .navbar__links {
+      margin-top: 2.48rem;
+      margin-left: 5rem;
+      display: flex;
+      height: 20px;
+      justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 12rem;
+    margin-left: -48rem;
+    font-stretch: 50%;
+  }
+
+  /* .sketch {
+    margin-top: 25.6rem;
+    margin-left: -10.4rem;
+  } */
+
+  .navbar__button {
+      margin-top: 1.8rem;
+      margin-left: 3rem;
+      display: flex;
+      justify-content: space-between;
+      /* border: none; */
+      text-align: center;
+  }
+
+  .navbar__links {
+      margin-top: 2.48rem;
+      margin-left: -4rem;
+      display: flex;
+      height: 20px;
+      justify-content: space-between;
+  }
+}
+
   
+@media screen and (max-width: 967px) {
+  .primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 12rem;
+    /* margin-left: -15rem; */
+    font-stretch: 50%;
+  }
+
+  /* .sketch {
+    margin-top: 25.6rem;
+    margin-left: -8rem;
+  } */
+}

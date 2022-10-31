@@ -26,7 +26,7 @@
   color: #000000;
   margin-top: 12rem;
   margin-left: -78rem;
-  font-stretch: 50%;
+  /* font-stretch: 50%; */
   max-width: 33%;
 }
 
@@ -43,7 +43,7 @@
     color: #000000;
     margin-top: 12rem;
     margin-left: -78rem;
-    font-stretch: 50%;
+    /* font-stretch: 50%; */
   }
 
   .sketch {
@@ -60,7 +60,7 @@
     color: #000000;
     margin-top: 12rem;
     margin-left: -78rem;
-    font-stretch: 50%;
+    /* font-stretch: 50%; */
   }
 
   .sketch {
@@ -68,8 +68,6 @@
     margin-left: -10.4rem;
   }
 }
-
-
 
 
 @media screen and (max-width: 967px) {
@@ -80,11 +78,35 @@
     color: #000000;
     margin-top: 12rem;
     margin-left: -78rem;
-    font-stretch: 50%;
+    /* font-stretch: 50%; */
   }
 
   .sketch {
     margin-top: 25.6rem;
     margin-left: -8rem;
   }
+}
+
+.home-button {
+  background-image: linear-gradient(to right, #0abfdb 0%, #4933C7  51%, #0abfdb  100%);
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  margin-left: -18.5rem;
+  margin-top: 25.2rem;
+  border-radius: 8px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  box-shadow: 0 0 20px #eee;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.1) perspective(1px)
 }

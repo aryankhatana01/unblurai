@@ -15,12 +15,13 @@ export default function App() {
           <path d="M7.50002 37.5C-32.5001 13.5 192 -9.50024 148 9.49994" stroke="url(#paint0_linear_2_15)" stroke-width="4"/>
           <defs>
           <linearGradient id="paint0_linear_2_15" x1="78.7632" y1="5.25085" x2="78.7632" y2="37.0002" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#21A0B4"/>
+          <stop stop-color="#0abfdb"/>
           <stop offset="1" stop-color="#4933C7" stop-opacity="0.62"/>
           </linearGradient>
           </defs>
         </svg>
       </div>
+      <button className='home-button'>Get Started</button>
     </div>
   );
 }
