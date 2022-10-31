@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import icon from './assets/unblurai-text-new.png'
+import header_image from './assets/header-image.png'
 import Navbar from './components/navbar/Navbar';
 
 
@@ -24,6 +25,7 @@ export default function App() {
       <p className='subheading'>Simply upload your file and our AI model would process the image, upscale it and give it to you ready to download for completely free.</p>
       <button className='home-button'>Get Started</button>
       <button className='learn-more'>Learn More</button>
+      <img src={header_image} alt="header-img" className='header'/>
     </div>
   );
 }

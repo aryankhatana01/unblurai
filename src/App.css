@@ -157,3 +157,10 @@
   background-position: right center;
   transform: scale(1.1) perspective(1px)
 }
+
+.header {
+  height: 500px;
+  width: 500px;
+  margin-top: 8rem;
+  margin-left: 24rem;
+}
