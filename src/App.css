@@ -27,4 +27,64 @@
   margin-top: 12rem;
   margin-left: -78rem;
   font-stretch: 50%;
+  max-width: 33%;
+}
+
+.sketch {
+  margin-top: 22rem;
+  margin-left: -17.5rem;
+}
+
+@media screen and (max-width: 1366px) {
+  .primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 12rem;
+    margin-left: -78rem;
+    font-stretch: 50%;
+  }
+
+  .sketch {
+    margin-top: 25.6rem;
+    margin-left: -21rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 12rem;
+    margin-left: -78rem;
+    font-stretch: 50%;
+  }
+
+  .sketch {
+    margin-top: 25.6rem;
+    margin-left: -10.4rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 967px) {
+  .primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 12rem;
+    margin-left: -78rem;
+    font-stretch: 50%;
+  }
+
+  .sketch {
+    margin-top: 25.6rem;
+    margin-left: -8rem;
+  }
 }
