@@ -21,7 +21,9 @@ export default function App() {
           </defs>
         </svg>
       </div>
+      <p className='subheading'>Simply upload your file and our AI model would process the image, upscale it and give it to you ready to download for completely free.</p>
       <button className='home-button'>Get Started</button>
+      <button className='learn-more'>Learn More</button>
     </div>
   );
 }
