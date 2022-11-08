@@ -1,5 +1,4 @@
-// import React from "react";
-// import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import React from "react";
 import './header.css';
 
 // const Header = () => {
