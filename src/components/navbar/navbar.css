@@ -54,7 +54,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: clamp(8rem, 5vw, 11rem);
+  gap: clamp(7rem, 5vw, 11rem);
   text-decoration: none;
 }
 
@@ -171,6 +171,10 @@
 @media screen and (max-width: 768px) {
   .navbar__links {
     display: none;
+  }
+
+  .box {
+    overflow: visible;
   }
 
   .navbar__button {
