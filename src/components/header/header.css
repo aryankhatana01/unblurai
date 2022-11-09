@@ -14,13 +14,20 @@
     color: rgb(0, 0, 0);
     max-width: 55%;
     line-height: 65px;
-    margin-top: 5rem;
+    margin-top: -40rem;
 }
 
 
 .free_gradient {
     background: #0ABFDB;
-    background: linear-gradient(to right, #0ABFDB 0%, #715de7 90%);
+    background: linear-gradient(to right, #00ddff 0%, #8a76ff 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.yellow-grad {
+    margin-left: -20rem;
+    margin-top: -16rem;
+    width: min(1210px, 100% - 2rem);
 }
