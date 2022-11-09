@@ -14,7 +14,7 @@
     color: rgb(0, 0, 0);
     max-width: 55%;
     line-height: 65px;
-    margin-top: -40rem;
+    margin-top: -18rem;
 }
 
 
@@ -28,6 +28,6 @@
 
 .yellow-grad {
     margin-left: -20rem;
-    margin-top: -16rem;
+    margin-top: -4.2rem;
     width: min(1210px, 100% - 2rem);
 }
