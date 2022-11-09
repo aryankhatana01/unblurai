@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+.header {
+    padding: 1.5rem;
+    width: min(1210px, 100% - 2rem);
+    margin-inline: auto;
+}
+
+
+.primary-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    max-width: 55%;
+    line-height: 65px;
+    margin-top: 5rem;
+}
+
+
+.free_gradient {
+    background: #0ABFDB;
+    background: linear-gradient(to right, #0ABFDB 0%, #715de7 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+
+
+.banner {
+    height: 2.5rem;
+    background-image: linear-gradient(to right, #0abfdb 0%, #755dff  100%);
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+}
+
+
+.donation {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .donation {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .donation {
+        font-size: 13px;
+    }
+
+    .banner {
+        height: 2.6rem;
+    }
+}
